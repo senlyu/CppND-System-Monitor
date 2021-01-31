@@ -7,6 +7,8 @@ class Processor {
 
   // TODO: Declare any necessary private members
  private:
+  long preJiffes[2] = { 0, 0 };
+  float TotalCpuUtilization();
 };
 
 #endif
