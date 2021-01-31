@@ -2,7 +2,6 @@
 #include <unistd.h>
 #include <string>
 #include <vector>
-#include <iostream>
 #include "linux_parser.h"
 
 #include <algorithm>
@@ -11,7 +10,6 @@ using std::stof;
 using std::string;
 using std::to_string;
 using std::vector;
-using std::map;
 
 // DONE: An example of how to read data from the filesystem
 string LinuxParser::OperatingSystem() {

@@ -16,13 +16,11 @@ class Process {
   long int UpTime();                       // TODO: See src/process.cpp
   bool operator<(Process const& a) const;  // TODO: See src/process.cpp
   Process(int pid);
-  float cpuUti_;
 
   // TODO: Declare any necessary private members
  private:
   int pid_;
-  // float cpuUti_;
-  float memUti_;
+  float cpuUti_;
 };
 
 #endif
